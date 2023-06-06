@@ -1,14 +1,13 @@
-sonar.projectKey=GerardoMT95_nembo
+sonar.projectKey=GerardoMT95_esenzione
 sonar.organization=gerardomt95
 
 # This is the name and version displayed in the SonarCloud UI.
-#sonar.projectName=nembo
+#sonar.projectName=esenzione
 #sonar.projectVersion=1.0
 
-sonar.sources=src
+sonar.sources=esenredsrv/src, esenzionerestsrv/src, esenzionewcl/src, esenzioneweb/src
 sonar.java.binaries=.
-sonar.java.libraries=lib/*.jar
-
+#sonar.java.libraries=lib/*.jar
 
 # Encoding of the source code. Default is default system encoding
 #sonar.sourceEncoding=UTF-8
